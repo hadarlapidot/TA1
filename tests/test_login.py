@@ -1,11 +1,9 @@
 import time
-import pytest
 
 from selenium.webdriver.common.by import By
 
 
 class TestPositiveScenarious:
-
     def test_positive_login(self, driver):
         # create the driver
 
